@@ -16,13 +16,13 @@ public class ProgramaPrincipal
 		
         // Calcular la tasa de cambio del radio
         double tasaCambioRadio = sistemaDeRiego.calcularTasaCambioRadio();
-        System.out.println("La tasa de cambio del radio es: " + tasaCambioRadio);
+        System.out.println("La tasa de cambio del radio es: " + tasaCambioRadio + " m/s");
         
         
         System.out.println("                                                    ");
         
         // Calcular la tasa de cambio del volumen después de 2 horas
         double tasaCambioVolumen = sistemaDeRiego.calcularTasaCambioVolumen(2);
-        System.out.println( "La tasa de cambio del volumen después de 2 horas es: " + tasaCambioVolumen ) ;
+        System.out.println( "La tasa de cambio del volumen después de 2 horas es: " + tasaCambioVolumen + " m^3/s" ) ;
      }
 }
